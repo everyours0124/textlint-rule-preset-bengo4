@@ -23,8 +23,6 @@ jobs:
       - name: Run Test
         run: npm test
 
-      - name: Run Textlint
-        run: npx textlint "**/*.md"
-
       - name: Run Example
-        run: npm run example
+        run: |
+          npm run example
